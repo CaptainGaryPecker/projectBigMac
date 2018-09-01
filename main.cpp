@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  projectBigMac/randomShot
+//  projectBigMac/mapShot
 //
 //  Created by Captain Gary Pecker on 02.09.2018.
 //  Copyright © 2018 Captain Gary Pecker. All rights reserved.
@@ -14,10 +14,8 @@ using namespace std;
 
 int main()
 {
-    for (int i = 1; i > 0; i++)
-        cout << (rand() % 3);
-    
-    /*int a[10][20];
+   
+     int a[10][20];
      
      for (int i = 0; i < 10; i++)
      for (int j = 0; j < 20; j++)
@@ -28,7 +26,7 @@ int main()
      cout << endl;
      for (int j = 0; j < 20; j++)
      cout << a[i][j];
-     }*/
+     }
     return 0;
 }
 
