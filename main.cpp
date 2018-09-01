@@ -17,18 +17,6 @@ int main()
     for (int i = 1; i > 0; i++)
         cout << (rand() % 3);
     
-    /*int a[10][20];
-     
-     for (int i = 0; i < 10; i++)
-     for (int j = 0; j < 20; j++)
-     a[i][j] = j;
-     
-     for (int i = 0; i < 10; i++)
-     {
-     cout << endl;
-     for (int j = 0; j < 20; j++)
-     cout << a[i][j];
-     }*/
     return 0;
 }
 
